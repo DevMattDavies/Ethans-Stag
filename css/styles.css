@@ -1,0 +1,577 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: none;
+}
+
+p {
+  line-height: 1.6;
+}
+
+main {
+  margin: 0;
+}
+
+hr {
+  margin: 45px auto;
+  width: 25%;
+}
+
+.navbar {
+  padding: 75px 0 19px;
+  width: 100%;
+}
+
+.nav-img {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  overflow: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.nav-content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.navbar-toggler {
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.title {
+  border-color: #ffed99;
+  border-style: double;
+  border-width: 5px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  margin: 0 auto 40px;
+  max-width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-group {
+  margin: 0 auto;
+}
+
+.nav-link {
+  display: block;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5rem;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #f5a962 !important;
+}
+
+/* Navbar CSS End */
+/* Countdown CSS Start */
+.countdown {
+  /* height: 600px; */
+  width: 100%;
+}
+
+.countdownul {
+  display: flex;
+  margin: 0 10%;
+  text-align: center;
+}
+
+.countdown-container {
+  border-color: #004a7c;
+  border-style: double;
+  border-width: 10px;
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  margin: 150px auto 400px;
+  max-width: 80%;
+  padding: 50px;
+  text-align: center;
+  width: 750px;
+}
+
+.countdownli {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-align: center;
+  text-transform: none;
+}
+
+.countdownli span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+/* Countdown CSS End */
+/* Activities CSS Start */
+.row {
+  padding-bottom: 3%;
+}
+
+.row-adjust {
+  padding-top: 3%;
+}
+
+.activities-yellow-bg {
+  background-color: #ffed99aa;
+  margin: 0;
+}
+
+.activities-section-title {
+  border-bottom-style: double;
+  border-color: #004a7c;
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  margin: 0 auto 50px;
+  padding: 50px 20px 0;
+  text-align: center;
+  width: 200px;
+}
+
+.activities-section-title h2 {
+  font-size: 2.5rem;
+}
+
+.activities-left-subheading {
+  float: left;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  max-width: 70%;
+}
+
+a.activities-left-subheading:hover {
+  color: #004a7c;
+}
+
+.activities-right-subheading {
+  float: right;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  max-width: 70%;
+}
+
+a.activities-left-subheading:hover {
+  color: #f5a962;
+}
+
+.activities-left-text {
+  clear: left;
+  float: left;
+  font-family: 'Oxygen', sans-serif;
+  max-width: 68%;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.activities-right-text {
+  clear: right;
+  float: right;
+  font-family: 'Oxygen', sans-serif;
+  max-width: 68%;
+  text-align: justify;
+}
+
+.activities-left-img {
+  border-color: #004a7c;
+  border-radius: 100%;
+  border-style: solid;
+  float: right;
+  padding: 5px;
+  position: relative;
+  top: 10%;
+  /* transform: translate(0, -50%); */
+  width: 150px;
+}
+
+.activities-right-img {
+  border-color: #004a7c;
+  border-radius: 100%;
+  border-style: solid;
+  float: left;
+  padding: 5px;
+  position: relative;
+  top: 10%;
+  /* transform: translate(0, -50%); */
+  width: 150px;
+}
+
+/* Activities CSS End */
+/* Accommodation CSS Start */
+.accommodation-container {
+  background-color: #ffed99aa;
+  margin: 0 auto;
+  padding: 50px 0 10px;
+  text-align: center;
+}
+
+.accommodation-content-container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 40px 0;
+}
+
+.accommodation-bgcolour-change {
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.accommodation-section-title {
+  border-bottom-style: double;
+  border-color: #004a7c;
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  margin: 0 auto 50px;
+  padding: 5px 20px 0;
+  text-align: center;
+  width: 300px;
+}
+
+.accommodation-img {
+  border-radius: 3%;
+  margin: 0 auto;
+  max-height: 330px;
+  max-width: 80%;
+  width: 500px;
+}
+
+/*Accommodation Subheading 1 for yellow blocks*/
+.accommodation-subheading1 {
+  color: inherit;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  margin: 30px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.accommodation-subheading1:hover {
+  color: #004a7c
+}
+
+/*Accommodation Subheading 2 for blue blocks */
+.accommodation-subheading2 {
+  color: inherit;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  margin: 30px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.accommodation-subheading2:hover {
+  color: #f5a962;
+}
+
+.accommodation-text, .parking-text {
+  font-family: 'Oxygen', sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+/* Accommodation CSS End  */
+/* Schedule CSS */
+.schedule-section-title {
+  border-bottom-style: double;
+  border-color: #004a7c;
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  margin: 0 auto 50px;
+  padding: 5px 20px 0;
+  text-align: center;
+  width: 200px;
+}
+
+.schedule-container {
+  background-color: #ffed99aa;
+  padding-bottom: 100px;
+}
+
+.schedule-border {
+  border-color: #004a7c;
+  border-style: double;
+  border-width: thick;
+  margin: 0 auto;
+  padding: 2% 3%;
+  width: 60%;
+}
+
+.table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.col-time {
+  color: #004a7c;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+}
+
+.col-time-between {
+  opacity: 30%;
+}
+
+th.col-activity {
+  color: #004a7c;
+  font-family: 'Oxygen', sans-serif;
+}
+
+td.col-activity {
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.7rem;
+}
+
+.col-activity-sub {
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 1rem;
+}
+
+/* Schedule CSS End */
+/* Cost CSS */
+.cost-section-title {
+  border-bottom-style: double;
+  border-color: #004a7c;
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  margin: 0 auto 70px;
+  padding: 5px 20px 0;
+  width: 200px;
+}
+
+.card {
+  border-style: none;
+  width: 100%;
+}
+
+.card-body {
+  background-color: #ffed99aa;
+}
+
+.card-title {
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.card-text {
+  font-family: 'Oxygen', sans-serif;
+  text-align: left;
+}
+
+.card-img-top {
+  background-color: #ffed99aa;
+  /* border-top-left-radius: 5%;
+  border-top-right-radius: 5%; */
+  height: 20vw;
+  object-fit: cover;
+  width: 100%;
+}
+
+.cost-top-row, .cost-bottom-row {
+  margin: 2% 5%;
+}
+
+/* Cost CSS End */
+/* Photos CSS */
+.photos-section-title {
+  border-bottom-style: double;
+  border-color: #004a7c;
+  color: #004a7c;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  margin: 0 auto 50px;
+  padding: 5px 20px 0;
+  text-align: center;
+  width: 300px;
+}
+
+.temp-photo-container {
+  height: 300px;
+}
+
+/* Photos CSS End */
+/* Footer CSS */
+.footer-img, .footer-home {
+  bottom: 0;
+  /* height: 100%; */
+  left: 0;
+  position: relative;
+  right: 0;
+  width: 100%;
+}
+
+@viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 576px) {
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .title {
+    width: 70%;
+  }
+
+  .countdown-container {
+    margin: 50px auto;
+  }
+
+  .days-hours, .minutes-seconds {
+    display: flex;
+  }
+
+  .countdownul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .countdownli {
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #days, #minutes, #hours, #seconds {
+    font-size: 3rem;
+  }
+
+  #headline {
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    margin: 0 auto 2%;
+  }
+
+  .activities-left-img, .activities-right-img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .activities-left-text, .activities-right-text {
+    float: none;
+    margin: 0 auto;
+    max-width: 85%;
+    text-align: justified;
+  }
+
+  .activities-left-subheading, .activities-right-subheading {
+    float: none;
+    margin: 0 auto;
+    padding: 30px 0 15px;
+    text-align: center;
+  }
+
+  .shooting-row, .flight-row {
+    padding-top: 50px;
+  }
+
+  .food-row, .dakota-row, .whiskey-row {
+    padding-bottom: 50px;
+  }
+
+  .food-row .col-sm-4 {
+    order: 1;
+  }
+
+  .food-row .col-sm-8 {
+    order: 2;
+  }
+
+  .dakota-row .col-sm-4 {
+    order: 1;
+  }
+
+  .dakota-row .col-sm-8 {
+    order: 2;
+  }
+
+  .whiskey-row .col-sm-4 {
+    order: 1;
+  }
+
+  .whiskey-row .col-sm-8 {
+    order: 2;
+  }
+
+  .parking-text {
+    text-align: justify;
+  }
+
+  .accommodation-content-container {
+    margin: 0;
+    padding: 0 0 40px;
+    ;
+  }
+
+  .accommodation-bgcolour-change {
+    margin: 0;
+    padding: 50px 0 0;
+  }
+
+  .card {
+    margin-bottom: 20px
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .table {
+    width: 90%;
+  }
+
+  .schedule-border {
+    border: none;
+    border-width: medium;
+    width: 90%;
+  }
+}
