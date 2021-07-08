@@ -90,13 +90,12 @@ hr {
 /* Navbar CSS End */
 /* Countdown CSS Start */
 .countdown {
-  /* height: 600px; */
   width: 100%;
 }
 
 .countdownul {
   display: flex;
-  margin: 0 10%;
+  margin: 0 8%;
   text-align: center;
 }
 
