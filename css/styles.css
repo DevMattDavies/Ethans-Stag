@@ -88,49 +88,19 @@ hr {
 }
 
 /* Navbar CSS End */
-/* Countdown CSS Start */
-.countdown {
-  width: 100%;
-}
-
-.countdownul {
-  display: flex;
-  margin: 0 8%;
-  text-align: center;
-}
-
+/* Home CSS Start */
 .accommodation-container-countdown {
   background-color: #ffed99aa;
+  /* height: 1000px; */
   margin: 0 auto;
   padding: 5px 0;
   text-align: center;
 }
 
-.countdown-container {
-  border-color: #004a7c;
-  border-style: double;
-  border-width: 10px;
-  color: #004a7c;
-  font-family: 'Satisfy', cursive;
-  margin: 100px auto 300px;
-  max-width: 80%;
-  padding: 50px;
-  text-align: center;
-  width: 750px;
-}
-
-.countdownli {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-align: center;
-  text-transform: none;
-}
-
-.countdownli span {
-  display: block;
-  font-size: 4.5rem;
+.stag-img {
+  height: auto;
+  margin: 10% auto;
+  width: 50%;
 }
 
 /* Countdown CSS End */
